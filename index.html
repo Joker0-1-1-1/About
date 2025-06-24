@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenel's Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="menu-btn" id="menuBtn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="mobile-theme-toggle">
+        <i class="fas fa-moon toggle-icon"></i>
+        <button class="toggle-btn" id="mobileThemeBtn"></button>
+        <i class="fas fa-sun toggle-icon"></i>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li> <!-- Changed from Favorites to About -->
+                <li><a href="#favorites">Favorites</a></li> <!-- Changed from Vibes to Favorites -->
+                <li><a href="#facts">Random Facts</a></li>
+                <li><a href="#socials">Socials</a></li>
+                <li class="theme-toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <button class="toggle-btn" id="desktopThemeBtn"></button>
+                    <i class="fas fa-sun toggle-icon"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<section id="home" class="home-section">
+    <div class="home-container">
+        <div class="home-profile-text">
+            <h1 id="name">Hi! I'm Jenel Dela Resma</h1>
+            <p>Since you're here, let me show you a little about me.</p>
+        </div>
+        <div class="home-profile-image">
+            <img src="Profile.jpg" alt="Jenel's Profile Picture">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about-section"> <!-- New About Section -->
+    <div class="about-container">
+        <div class="about-profile-text">
+            <h1>About Me</h1>
+            <p>I'm a 4th-year student taking up a Bachelor of Science in Information Technology at STI College San Fernando. Future techie by day, K-drama binge-watcher by night. I survive on movies, music, good food, and random laughs. I may not be able to fix your life, but I can definitely fix your Wi-Fi. Loyal like a golden retriever, funny like your favorite meme—and I firmly believe that matcha can solve 90% of my problems (the other 10% just need more matcha).</p>
+        </div>
+        <div class="about-profile-image">
+            <img src="profileee.png" alt="Profile Picture">
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="favorites" class="section">
+        <h2><span class="typewriter" id="favorites-header">My Favorites</span></h2>
+        <div class="favorites-container">
+            <div class="favorite-item">
+                <img src="seafood and chicken.jpg" alt="Seafood and Chicken" style="width: 150px; height: 150px;">
+                <h3>🍜 Food: Seafood and Chicken</h3>
+            </div>
+                        <div class="favorite-item">
+                <img src="southborder.jpg" alt="Rainbow by South Border" style="width: 150px; height: 150px;">
+                <h3>🎵 Music: Rainbow by South Border</h3>
+                <audio controls>
+                    <source src="ssstik.io_@music_vibe_with_martin_1750771449128.mp4" type="audio/mpeg">
+                </audio>
+            </div>
+                        <div class="favorite-item">
+                <img src="https://media2.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NmQ0dGlnaTVudWI0NGh0eXpvdTRhdGdzZDQzZmVlNjBveWZ5cWhheCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IhyGL914g9ShHdHVFy/giphy.webp" alt="In Love GIF" style="width: 150px; height: 150px;">
+                <h3>❤️ Favorite Person: You!</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="facts" class="section">
+        <h2><span class="typewriter" id="facts-header">Random Facts</span></h2>
+        <ul>
+            <img src="chicharon.jpg" alt="Seafood and Chicken" style="width: 150px; height: 150px;">
+            <li>I don't eat pork and beef, but I can eat hotdogs and chicharon made from pork 😂</li>
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzl6bDIwbXB0cmhlcXgxMXRrdXdkc21lYWx3Y2Y1NDU1NGp0Z25mNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wBSsIKHZB1jb6log86/giphy.gif" alt="Seafood and Chicken" style="width: 150px; height: 150px;">
+            <li> I may look snobber, but once you know me personally, your first impression fails.
+Pwede mo akong maging mood lifter, clown, counselor, listener at kung ano pa man. Trust me mabait akong tao 😇</li>
+        </ul>
+    </section>
+
+
+    <section id="socials" class="section">
+        <h2><span class="typewriter" id="socials-header">Connect with Me</span></h2>
+        <p>Let’s be friends! You can find me here:</p>
+        <ul>
+            <li><i class="fab fa-facebook"></i> FB: <a href="https://www.facebook.com/nellll01" style="color:var(--primary)">Jenel Dela Resma</a></li>
+            <li><i class="fab fa-instagram"></i> IG: <a href="https://www.instagram.com/buurrsss/" style="color:var(--primary)">@buurrsss</a></li>
+    </section>
+<script src="script.js"></script>
+</body>
